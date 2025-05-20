@@ -1,7 +1,9 @@
 <?php
 require_once 'sentry_config.php';
-throw new Exception("Erreur de test pour Sentry");
+// throw new Exception("Erreur de test pour sentry");
+
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 

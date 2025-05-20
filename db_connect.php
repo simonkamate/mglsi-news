@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'mglsi_news';
-$username = 'mglsi_user';
-$password = 'passer';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
